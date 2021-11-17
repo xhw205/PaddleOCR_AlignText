@@ -4,11 +4,11 @@
 
 使用 [paddleOCR](https://github.com/PaddlePaddle)  的预训练模型，即使不用fine-tune，也已达到非常好的识别效果。
 
-但在实际应用时候，特别是面对一些表格制式的特殊图像（如下图示的医学检验报告），我们paddleOCR 并不会按行给出结果，而是按块给出。这需要我们按行合并块，以得到可以阅读的识别文本。
+但在实际应用时候，特别是面对一些表格制式的特殊图像（如下图示的医学检验报告，来源于百度图片），我们paddleOCR 并不会按行给出结果，而是按块给出。这需要我们按行合并块，以得到可以阅读的识别文本。
 
 > paddleOCR 同样开源了 [PP-Structure](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.2/ppstructure/README_ch.md) 用于表格、图片以及列表的识别，效果可自行测试
 
-![image-20211116170317771.jpg](https://i.loli.net/2021/11/17/HlSU3yZscFKA8wB.png)
+![百度图片](https://i.loli.net/2021/11/17/HlSU3yZscFKA8wB.png)
 若不合并，直接输出结果为：
 ```
 序编码
