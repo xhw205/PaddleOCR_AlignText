@@ -70,7 +70,8 @@ NELT%中性粒细胞百分比  41.3  %  50--70
 18 MCHC平均血红蛋白浓度  320  g/L  320-360  
 ```
 #### 环境
-
 + interval==1.0.0
 + paddleocr==2.0.6
+#### 运行
+python ocr_align.py
 
